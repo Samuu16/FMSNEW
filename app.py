@@ -256,7 +256,7 @@ def api_crud_entry(id):
         db.session.commit()
         return jsonify({"message": "Entry deleted successfully"}), 200
 
-@app.route('/level_sensor_data', methods=['POST'])
+@app.route('/api/level_sensor_data', methods=['POST'])
 def receive_level_sensor_data():
     if request.method == 'POST':
         sense_data = request.json['modbus_TEST']
