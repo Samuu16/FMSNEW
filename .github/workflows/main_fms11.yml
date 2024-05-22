@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'FMS11'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_234715D7F0F947688306C0F126B91D16 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AF2F2A3799B64DD2838A0D914C407088 }}
